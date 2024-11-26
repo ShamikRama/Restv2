@@ -10,4 +10,5 @@ database:
   password: ""
   host: "localhost"
   port: "5435"
-  dbname: "shamil"
+  dbname: "newrest"
+  sslmode: "disable"

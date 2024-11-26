@@ -3,6 +3,8 @@ package main
 import (
 	"Restv2/internal/config"
 	"Restv2/internal/logger"
+
+	"github.com/gorilla/mux"
 )
 
 func main() {
@@ -10,9 +12,9 @@ func main() {
 
 	log := logger.SetupZapLogger(cfg.Env)
 
-	// TODO: init database
+	router := mux.NewRouter()
 
-	// TODO: init router
+	// TODO: init database
 
 	// TODO: init server
 
